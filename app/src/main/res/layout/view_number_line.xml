@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.example.underlineedittext_composed.MainActivity">
+
+    <LinearLayout
+        style="@style/SingleCharPanelStyle">
+
+        <com.example.underlineedittext_composed.CursorControlEditText
+            android:id="@+id/et1"
+            style="@style/SingleCharEditTextStyle"/>
+
+        <View
+            android:id="@+id/line1"
+            style="@style/SingleCharLineStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SingleCharPanelStyle"
+        android:layout_marginLeft="5dp">
+
+        <com.example.underlineedittext_composed.CursorControlEditText
+            android:id="@+id/et2"
+            style="@style/SingleCharEditTextStyle"/>
+
+        <View
+            android:id="@+id/line2"
+            style="@style/SingleCharLineStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SingleCharPanelStyle"
+        android:layout_marginLeft="5dp">
+
+        <com.example.underlineedittext_composed.CursorControlEditText
+            android:id="@+id/et3"
+            style="@style/SingleCharEditTextStyle"/>
+
+        <View
+            android:id="@+id/line3"
+            style="@style/SingleCharLineStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SingleCharPanelStyle"
+        android:layout_marginLeft="5dp">
+
+        <com.example.underlineedittext_composed.CursorControlEditText
+            android:id="@+id/et4"
+            style="@style/SingleCharEditTextStyle"/>
+
+        <View
+            android:id="@+id/line4"
+            style="@style/SingleCharLineStyle"/>
+    </LinearLayout>
+</LinearLayout>
